@@ -236,7 +236,7 @@ qemu-nox-gdb: fs.img xv6.img .gdbinit
 	@echo "*** Now run 'gdb'." 1>&2
 	$(QEMU) -nographic $(QEMUOPTS) -S $(QEMUGDB)
 
-# SKKU operating system
+# HUFS operating system
 PROJECTNUM=2-2
 # enter your ID
 STUDENTID=2011311671
