@@ -19,6 +19,7 @@ main(void)
   dup(0);  // stdout
   dup(0);  // stderr
 
+  printf(1, "Welcome to HUFS xv6 Operating System Project!!! \n");
   for(;;){
     pid = fork();
     if(pid < 0){
